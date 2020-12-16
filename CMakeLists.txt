@@ -133,7 +133,7 @@ endif()
 #==============================================================================
 set(CFITSIO_SRC_DIR "${CMAKE_SOURCE_DIR}/cfitsio")
 set(ZLIB_SRC_DIR "${CMAKE_SOURCE_DIR}/zlib")
-file(GLOB H_FILES "*.h")
+file(GLOB H_FILES "${CFITSIO_SRC_DIR}/*.h")
 set(SRC_FILES
     ${CFITSIO_SRC_DIR}/buffers.c 
 		${CFITSIO_SRC_DIR}/cfileio.c 
