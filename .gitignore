@@ -13,3 +13,5 @@ _deps
 *.swo
 *.o
 *.mod
+.Makefile.in.swp
+autom4te.cache/*
