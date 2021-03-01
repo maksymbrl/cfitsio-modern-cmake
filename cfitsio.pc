@@ -1,4 +1,4 @@
-prefix=/Users/maksymb/Desktop/cfitsio-modern-cmake
+prefix=/mn/stornext/u3/maksymb/cmake_projects/cfitsio-modern-cmake
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
